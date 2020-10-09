@@ -30,3 +30,6 @@ function removeElementFromEndOfArray(arr){
   newArray = arr.slice(0,arr.length-1);
   return newArray;
 }
+var poo = ["candy","cookies","ice cream"];
+var poo2= removeElementFromBeginningOfArray(poo);
+console.log(poo2.length);
